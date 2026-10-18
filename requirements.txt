@@ -1,0 +1,9 @@
+# 销售周报自动化依赖清单（实测环境：Windows + Python 3.9）
+# pandas 需 2.2 及以上：读 .xls/.xlsx 使用 engine="calamine"
+pandas==2.3.3
+openpyxl==3.1.5
+# calamine 引擎由本包提供，经 pandas 的 engine="calamine" 字符串参数引用，
+# pipreqs 扫描不到 import，需手动维护此行
+python-calamine==0.4.0
+# csv 文件编码自动探测（from_path().best().encoding）
+charset-normalizer==3.5.2

@@ -1,0 +1,22 @@
+# 虚拟环境
+.venv/
+
+# 运行产物：周报与质量报告（可随时由 main.py 重新生成）
+output/
+docs/report.txt
+
+# 个人工作记录，不入库
+docs/变更摘要_2026-10-18.md
+
+# 输入数据（xlsx/csv 体积大，不入库；README 已说明数据放 dirty_data/）
+dirty_data/
+dirty_data_backup/
+
+# Python 运行缓存
+__pycache__/
+
+# Excel 打开时的临时文件
+~$*
+
+# 历史调试遗留产物
+cleaned_sales_data.xlsx
