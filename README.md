@@ -37,6 +37,11 @@
   - **图表**：各地区销售总额柱状图 + 月度走势折线图（Excel 原生图表，引用透视表区域，可直接编辑）
 - `docs/report.txt`：数据质量报告（每次运行覆盖刷新）
 
+![输出效果：简报](./docs/screenshot1.png)
+
+
+![输出效果：图表](./docs/screenshot2.png)
+
 ## 怎么运行
 
 ```powershell
